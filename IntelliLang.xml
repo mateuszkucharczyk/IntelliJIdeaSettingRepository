@@ -1,0 +1,8 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="RegExp" injector-id="java">
+      <display-name>HtmlParser.parseForm (com.protonmail.mateuszkucharczyk)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(3, psiMethod().withName("parseForm").withParameters("java.lang.String", "java.lang.String", "java.lang.String", "java.lang.String").definedInClass("com.protonmail.mateuszkucharczyk.HtmlParser"))]]></place>
+    </injection>
+  </component>
+</application>
