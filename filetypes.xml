@@ -1,7 +1,0 @@
-<application>
-  <component name="FileTypeManager" version="17">
-    <extensionMap>
-      <mapping pattern="objectString2ObjectInstance" type="Perl" />
-    </extensionMap>
-  </component>
-</application>
