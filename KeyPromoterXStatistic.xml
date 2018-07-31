@@ -9,6 +9,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Copy">
+        <Item>
+          <IdeaActionID>$Copy</IdeaActionID>
+          <ShortCut>'Ctrl+C' or 'Ctrl+Insert'</ShortCut>
+          <Description>Copy</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Copy Reference">
         <Item>
           <IdeaActionID>CopyReference</IdeaActionID>
@@ -25,12 +33,20 @@
           <Count>3</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'AnalyticsApplication'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Rerun 'AnalyticsApplication'</Description>
+          <Count>7</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Resume Program">
         <Item>
           <IdeaActionID>Resume</IdeaActionID>
           <ShortCut>'F9'</ShortCut>
           <Description>Resume Program</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'AnalyticsApplication'">
@@ -38,7 +54,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'AnalyticsApplication'</Description>
-          <Count>7</Count>
+          <Count>24</Count>
         </Item>
       </Statistic>
       <Statistic Action="Settings...">
@@ -46,7 +62,7 @@
           <IdeaActionID>ShowSettings</IdeaActionID>
           <ShortCut>'Ctrl+Alt+S'</ShortCut>
           <Description>Settings...</Description>
-          <Count>2</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'AnalyticsApplication'">
@@ -54,7 +70,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'AnalyticsApplication'</Description>
-          <Count>9</Count>
+          <Count>43</Count>
         </Item>
       </Statistic>
       <Statistic Action="Structure">
@@ -86,7 +102,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>8</Count>
+          <Count>10</Count>
         </Item>
       </Statistic>
     </option>
