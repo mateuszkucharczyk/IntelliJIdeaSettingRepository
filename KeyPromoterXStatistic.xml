@@ -33,12 +33,20 @@
           <Count>3</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Declaration">
+        <Item>
+          <IdeaActionID>GotoDeclaration</IdeaActionID>
+          <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click'</ShortCut>
+          <Description>Declaration</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Find Usages">
         <Item>
           <IdeaActionID>FindUsages</IdeaActionID>
           <ShortCut>'Alt+F7'</ShortCut>
           <Description>Find Usages</Description>
-          <Count>5</Count>
+          <Count>6</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'Application'">
@@ -62,7 +70,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'Application -book'</Description>
-          <Count>2</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'Application -download'">
@@ -118,7 +126,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>4</Count>
+          <Count>5</Count>
         </Item>
       </Statistic>
     </option>
