@@ -6,7 +6,7 @@
           <IdeaActionID>CheckinProject</IdeaActionID>
           <ShortCut>'Ctrl+K'</ShortCut>
           <Description>Commit...</Description>
-          <Count>57</Count>
+          <Count>18</Count>
         </Item>
       </Statistic>
       <Statistic Action="Copy">
@@ -14,7 +14,7 @@
           <IdeaActionID>$Copy</IdeaActionID>
           <ShortCut>'Ctrl+C' or 'Ctrl+Insert'</ShortCut>
           <Description>Copy</Description>
-          <Count>31</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Copy Reference">
@@ -25,19 +25,19 @@
           <Count>1</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Debug 'AnalyticsApplication'">
-        <Item>
-          <IdeaActionID>Debug</IdeaActionID>
-          <ShortCut>'Shift+F9'</ShortCut>
-          <Description>Debug 'AnalyticsApplication'</Description>
-          <Count>3</Count>
-        </Item>
-      </Statistic>
       <Statistic Action="Debug 'Application -book'">
         <Item>
           <IdeaActionID>Debug</IdeaActionID>
           <ShortCut>'Shift+F9'</ShortCut>
           <Description>Debug 'Application -book'</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Debug 'Application -download'">
+        <Item>
+          <IdeaActionID>Debug</IdeaActionID>
+          <ShortCut>'Shift+F9'</ShortCut>
+          <Description>Debug 'Application -download'</Description>
           <Count>4</Count>
         </Item>
       </Statistic>
@@ -46,23 +46,7 @@
           <IdeaActionID>Debug</IdeaActionID>
           <ShortCut>'Shift+F9'</ShortCut>
           <Description>Debug 'Application -list'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Debug 'N05StringTemplatesKtTest'">
-        <Item>
-          <IdeaActionID>Debug</IdeaActionID>
-          <ShortCut>'Shift+F9'</ShortCut>
-          <Description>Debug 'N05StringTemplatesKtTest'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Debug 'RobotMissionServerApplication'">
-        <Item>
-          <IdeaActionID>Debug</IdeaActionID>
-          <ShortCut>'Shift+F9'</ShortCut>
-          <Description>Debug 'RobotMissionServerApplication'</Description>
-          <Count>14</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Declaration">
@@ -70,31 +54,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>35</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Desktop Directory">
-        <Item>
-          <IdeaActionID>FileChooser.GotoDesktop</IdeaActionID>
-          <ShortCut>'Ctrl+D'</ShortCut>
-          <Description>Desktop Directory</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Evaluate Expression...">
-        <Item>
-          <IdeaActionID>EvaluateExpression</IdeaActionID>
-          <ShortCut>'Alt+F8'</ShortCut>
-          <Description>Evaluate Expression...</Description>
-          <Count>5</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Favorites">
-        <Item>
-          <IdeaActionID>ActivateFavoritesToolWindow</IdeaActionID>
-          <ShortCut>'Alt+2'</ShortCut>
-          <Description>Favorites</Description>
-          <Count>2</Count>
+          <Count>22</Count>
         </Item>
       </Statistic>
       <Statistic Action="Find Usages">
@@ -102,7 +62,7 @@
           <IdeaActionID>FindUsages</IdeaActionID>
           <ShortCut>'Alt+F7'</ShortCut>
           <Description>Find Usages</Description>
-          <Count>11</Count>
+          <Count>32</Count>
         </Item>
       </Statistic>
       <Statistic Action="Messages">
@@ -110,151 +70,47 @@
           <IdeaActionID>ActivateMessagesToolWindow</IdeaActionID>
           <ShortCut>'Alt+0'</ShortCut>
           <Description>Messages</Description>
-          <Count>10</Count>
+          <Count>1</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Paste">
+      <Statistic Action="Open Task...">
         <Item>
-          <IdeaActionID>$Paste</IdeaActionID>
-          <ShortCut>'Ctrl+V' or 'Shift+Insert'</ShortCut>
-          <Description>Paste</Description>
-          <Count>4</Count>
+          <IdeaActionID>tasks.goto</IdeaActionID>
+          <ShortCut>'Alt+Shift+N'</ShortCut>
+          <Description>Open Task...</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Paste from X clipboard">
+      <Statistic Action="Paste from History...">
         <Item>
-          <IdeaActionID>EditorPasteFromX11</IdeaActionID>
-          <ShortCut>'Button2 Click'</ShortCut>
-          <Description>Paste from X clipboard</Description>
+          <IdeaActionID>PasteMultiple</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+V' or 'Ctrl+Shift+Insert'</ShortCut>
+          <Description>Paste from History...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Refresh">
+        <Item>
+          <IdeaActionID>FileChooser.Refresh</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+Y'</ShortCut>
+          <Description>Refresh</Description>
           <Count>2</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Project">
+      <Statistic Action="Rerun 'Application'">
         <Item>
-          <IdeaActionID>ActivateProjectToolWindow</IdeaActionID>
-          <ShortCut>'Alt+1'</ShortCut>
-          <Description>Project</Description>
-          <Count>4</Count>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Rerun 'Application'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Project Structure...">
+      <Statistic Action="Rerun 'pkp-booking [compile]'">
         <Item>
-          <IdeaActionID>ShowProjectStructureSettings</IdeaActionID>
-          <ShortCut>'Ctrl+Alt+Shift+S'</ShortCut>
-          <Description>Project Structure...</Description>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Rerun 'pkp-booking [compile]'</Description>
           <Count>2</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Push...">
-        <Item>
-          <IdeaActionID>Vcs.Push</IdeaActionID>
-          <ShortCut>'Ctrl+Shift+K'</ShortCut>
-          <Description>Push...</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Recompile '...cationProvider.java'">
-        <Item>
-          <IdeaActionID>Compile</IdeaActionID>
-          <ShortCut>'Ctrl+Shift+F9'</ShortCut>
-          <Description>Recompile '...cationProvider.java'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Recompile 'n14FilterMap.kt'">
-        <Item>
-          <IdeaActionID>Compile</IdeaActionID>
-          <ShortCut>'Ctrl+Shift+F9'</ShortCut>
-          <Description>Recompile 'n14FilterMap.kt'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Rerun 'AnalyticsApplication'">
-        <Item>
-          <IdeaActionID>Rerun</IdeaActionID>
-          <ShortCut>'Ctrl+F5'</ShortCut>
-          <Description>Rerun 'AnalyticsApplication'</Description>
-          <Count>10</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Rerun 'ApiGatewayServerApplication'">
-        <Item>
-          <IdeaActionID>Rerun</IdeaActionID>
-          <ShortCut>'Ctrl+F5'</ShortCut>
-          <Description>Rerun 'ApiGatewayServerApplication'</Description>
-          <Count>9</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Rerun 'DemoFeignApplication'">
-        <Item>
-          <IdeaActionID>Rerun</IdeaActionID>
-          <ShortCut>'Ctrl+F5'</ShortCut>
-          <Description>Rerun 'DemoFeignApplication'</Description>
-          <Count>2</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Rerun 'DemoFeignClientApplication (1)'">
-        <Item>
-          <IdeaActionID>Rerun</IdeaActionID>
-          <ShortCut>'Ctrl+F5'</ShortCut>
-          <Description>Rerun 'DemoFeignClientApplication (1)'</Description>
-          <Count>5</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Rerun 'DemoFeignClientApplication'">
-        <Item>
-          <IdeaActionID>Rerun</IdeaActionID>
-          <ShortCut>'Ctrl+F5'</ShortCut>
-          <Description>Rerun 'DemoFeignClientApplication'</Description>
-          <Count>2</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Rerun 'DemoFeignDirectClientApplication'">
-        <Item>
-          <IdeaActionID>Rerun</IdeaActionID>
-          <ShortCut>'Ctrl+F5'</ShortCut>
-          <Description>Rerun 'DemoFeignDirectClientApplication'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Rerun 'DemoFeignLoadBalancingClientApplication'">
-        <Item>
-          <IdeaActionID>Rerun</IdeaActionID>
-          <ShortCut>'Ctrl+F5'</ShortCut>
-          <Description>Rerun 'DemoFeignLoadBalancingClientApplication'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Rerun 'N41GenericFunctionsKtTest'">
-        <Item>
-          <IdeaActionID>Rerun</IdeaActionID>
-          <ShortCut>'Ctrl+F5'</ShortCut>
-          <Description>Rerun 'N41GenericFunctionsKtTest'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Rerun 'RobotClientApplication'">
-        <Item>
-          <IdeaActionID>Rerun</IdeaActionID>
-          <ShortCut>'Ctrl+F5'</ShortCut>
-          <Description>Rerun 'RobotClientApplication'</Description>
-          <Count>14</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Rerun 'RobotMissionServerApplication'">
-        <Item>
-          <IdeaActionID>Rerun</IdeaActionID>
-          <ShortCut>'Ctrl+F5'</ShortCut>
-          <Description>Rerun 'RobotMissionServerApplication'</Description>
-          <Count>22</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Rerun 'RobotTrackingServerApplication'">
-        <Item>
-          <IdeaActionID>Rerun</IdeaActionID>
-          <ShortCut>'Ctrl+F5'</ShortCut>
-          <Description>Rerun 'RobotTrackingServerApplication'</Description>
-          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Resume Program">
@@ -262,7 +118,7 @@
           <IdeaActionID>Resume</IdeaActionID>
           <ShortCut>'F9'</ShortCut>
           <Description>Resume Program</Description>
-          <Count>19</Count>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Revert...">
@@ -270,7 +126,7 @@
           <IdeaActionID>ChangesView.Revert</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Z'</ShortCut>
           <Description>Revert...</Description>
-          <Count>7</Count>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run">
@@ -278,39 +134,23 @@
           <IdeaActionID>ActivateRunToolWindow</IdeaActionID>
           <ShortCut>'Alt+4'</ShortCut>
           <Description>Run</Description>
-          <Count>121</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Run 'AnalyticsApplication'">
+      <Statistic Action="Run 'All Tests'">
         <Item>
-          <IdeaActionID>Run</IdeaActionID>
-          <ShortCut>'Shift+F10'</ShortCut>
-          <Description>Run 'AnalyticsApplication'</Description>
-          <Count>25</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Run 'ApiGatewayServerApplication (1)'">
-        <Item>
-          <IdeaActionID>Run</IdeaActionID>
-          <ShortCut>'Shift+F10'</ShortCut>
-          <Description>Run 'ApiGatewayServerApplication (1)'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Run 'ApiGatewayServerApplication'">
-        <Item>
-          <IdeaActionID>Run</IdeaActionID>
-          <ShortCut>'Shift+F10'</ShortCut>
-          <Description>Run 'ApiGatewayServerApplication'</Description>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F10'</ShortCut>
+          <Description>Run 'All Tests'</Description>
           <Count>7</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Run 'Application -book (1)'">
+      <Statistic Action="Run 'All in pkp-booking'">
         <Item>
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'Shift+F10'</ShortCut>
-          <Description>Run 'Application -book (1)'</Description>
-          <Count>2</Count>
+          <Description>Run 'All in pkp-booking'</Description>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'Application -book'">
@@ -318,7 +158,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'Application -book'</Description>
-          <Count>14</Count>
+          <Count>22</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'Application -download'">
@@ -326,7 +166,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'Application -download'</Description>
-          <Count>10</Count>
+          <Count>12</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'Application -list'">
@@ -334,95 +174,15 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'Application -list'</Description>
-          <Count>12</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Run 'DemoFeignClientAppli...'">
-        <Item>
-          <IdeaActionID>RunClass</IdeaActionID>
-          <ShortCut>'Ctrl+Shift+F10'</ShortCut>
-          <Description>Run 'DemoFeignClientAppli...'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Run 'DemoFeignClientApplication (1)'">
+      <Statistic Action="Run 'Application'">
         <Item>
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'Shift+F10'</ShortCut>
-          <Description>Run 'DemoFeignClientApplication (1)'</Description>
-          <Count>6</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Run 'DemoFeignClientApplication'">
-        <Item>
-          <IdeaActionID>Run</IdeaActionID>
-          <ShortCut>'Shift+F10'</ShortCut>
-          <Description>Run 'DemoFeignClientApplication'</Description>
-          <Count>7</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Run 'DemoFeignDirectClientApplication'">
-        <Item>
-          <IdeaActionID>Run</IdeaActionID>
-          <ShortCut>'Shift+F10'</ShortCut>
-          <Description>Run 'DemoFeignDirectClientApplication'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Run 'DemoFeignServerApplication (1)'">
-        <Item>
-          <IdeaActionID>Run</IdeaActionID>
-          <ShortCut>'Shift+F10'</ShortCut>
-          <Description>Run 'DemoFeignServerApplication (1)'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Run 'DemoFeignServerApplication'">
-        <Item>
-          <IdeaActionID>Run</IdeaActionID>
-          <ShortCut>'Shift+F10'</ShortCut>
-          <Description>Run 'DemoFeignServerApplication'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Run 'RobotClientApplication'">
-        <Item>
-          <IdeaActionID>Run</IdeaActionID>
-          <ShortCut>'Shift+F10'</ShortCut>
-          <Description>Run 'RobotClientApplication'</Description>
-          <Count>13</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Run 'RobotMissionServerAp...'">
-        <Item>
-          <IdeaActionID>RunClass</IdeaActionID>
-          <ShortCut>'Ctrl+Shift+F10'</ShortCut>
-          <Description>Run 'RobotMissionServerAp...'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Run 'RobotMissionServerApplication'">
-        <Item>
-          <IdeaActionID>Run</IdeaActionID>
-          <ShortCut>'Shift+F10'</ShortCut>
-          <Description>Run 'RobotMissionServerApplication'</Description>
-          <Count>28</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Run 'RobotTrackingServerApplication'">
-        <Item>
-          <IdeaActionID>Run</IdeaActionID>
-          <ShortCut>'Shift+F10'</ShortCut>
-          <Description>Run 'RobotTrackingServerApplication'</Description>
-          <Count>4</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Settings...">
-        <Item>
-          <IdeaActionID>ShowSettings</IdeaActionID>
-          <ShortCut>'Ctrl+Alt+S'</ShortCut>
-          <Description>Settings...</Description>
-          <Count>4</Count>
+          <Description>Run 'Application'</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Show Diff">
@@ -433,147 +193,35 @@
           <Count>1</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Stop">
-        <Item>
-          <IdeaActionID>RunDashboard.Stop</IdeaActionID>
-          <ShortCut>'Ctrl+F2'</ShortCut>
-          <Description>Stop</Description>
-          <Count>6</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Stop 'AnalyticsApplication'">
+      <Statistic Action="Stop 'Application -book'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
-          <Description>Stop 'AnalyticsApplication'</Description>
-          <Count>48</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Stop 'ApiGatewayServerApplication (1)'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'Ctrl+F2'</ShortCut>
-          <Description>Stop 'ApiGatewayServerApplication (1)'</Description>
-          <Count>2</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Stop 'ApiGatewayServerApplication'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'Ctrl+F2'</ShortCut>
-          <Description>Stop 'ApiGatewayServerApplication'</Description>
-          <Count>12</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Stop 'DemoFeignApplication'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'Ctrl+F2'</ShortCut>
-          <Description>Stop 'DemoFeignApplication'</Description>
-          <Count>3</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Stop 'DemoFeignClientApplication (1)'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'Ctrl+F2'</ShortCut>
-          <Description>Stop 'DemoFeignClientApplication (1)'</Description>
-          <Count>4</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Stop 'DemoFeignDirectClientApplication'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'Ctrl+F2'</ShortCut>
-          <Description>Stop 'DemoFeignDirectClientApplication'</Description>
-          <Count>7</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Stop 'DemoFeignLoadBalancingClientApplication'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'Ctrl+F2'</ShortCut>
-          <Description>Stop 'DemoFeignLoadBalancingClientApplication'</Description>
-          <Count>3</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Stop 'DemoFeignServerApplication (1)'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'Ctrl+F2'</ShortCut>
-          <Description>Stop 'DemoFeignServerApplication (1)'</Description>
-          <Count>2</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Stop 'DemoFeignServerApplication'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'Ctrl+F2'</ShortCut>
-          <Description>Stop 'DemoFeignServerApplication'</Description>
-          <Count>2</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Stop 'N05StringTemplatesKtTest'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'Ctrl+F2'</ShortCut>
-          <Description>Stop 'N05StringTemplatesKtTest'</Description>
-          <Count>3</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Stop 'RobotClientApplication'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'Ctrl+F2'</ShortCut>
-          <Description>Stop 'RobotClientApplication'</Description>
-          <Count>28</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Stop 'RobotMissionServerApplication'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'Ctrl+F2'</ShortCut>
-          <Description>Stop 'RobotMissionServerApplication'</Description>
-          <Count>48</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Stop 'RobotTrackingServerApplication'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'Ctrl+F2'</ShortCut>
-          <Description>Stop 'RobotTrackingServerApplication'</Description>
-          <Count>5</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Stop 'spring-cloud [package]'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'Ctrl+F2'</ShortCut>
-          <Description>Stop 'spring-cloud [package]'</Description>
+          <Description>Stop 'Application -book'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Stop...">
+      <Statistic Action="Stop 'Application -download'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
-          <Description>Stop...</Description>
-          <Count>5</Count>
+          <Description>Stop 'Application -download'</Description>
+          <Count>3</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Structure">
+      <Statistic Action="Stop 'Application -list'">
         <Item>
-          <IdeaActionID>ActivateStructureToolWindow</IdeaActionID>
-          <ShortCut>'Alt+7'</ShortCut>
-          <Description>Structure</Description>
-          <Count>4</Count>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'Application -list'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Surround With...">
+      <Statistic Action="Stop 'Application'">
         <Item>
-          <IdeaActionID>SurroundWith</IdeaActionID>
-          <ShortCut>'Ctrl+Alt+T'</ShortCut>
-          <Description>Surround With...</Description>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'Application'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
@@ -582,7 +230,7 @@
           <IdeaActionID>ActivateTODOToolWindow</IdeaActionID>
           <ShortCut>'Alt+6'</ShortCut>
           <Description>TODO</Description>
-          <Count>3</Count>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Terminal">
@@ -590,7 +238,7 @@
           <IdeaActionID>ActivateTerminalToolWindow</IdeaActionID>
           <ShortCut>'Alt+F12'</ShortCut>
           <Description>Terminal</Description>
-          <Count>143</Count>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Toggle Line Breakpoint">
@@ -598,15 +246,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>30</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="VCS Operations Popup...">
-        <Item>
-          <IdeaActionID>Vcs.QuickListPopupAction</IdeaActionID>
-          <ShortCut>'Alt+`'</ShortCut>
-          <Description>VCS Operations Popup...</Description>
-          <Count>1</Count>
+          <Count>9</Count>
         </Item>
       </Statistic>
       <Statistic Action="Version Control">
@@ -614,7 +254,7 @@
           <IdeaActionID>ActivateVersionControlToolWindow</IdeaActionID>
           <ShortCut>'Alt+9'</ShortCut>
           <Description>Version Control</Description>
-          <Count>48</Count>
+          <Count>1</Count>
         </Item>
       </Statistic>
     </option>
