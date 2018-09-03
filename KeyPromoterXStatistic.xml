@@ -22,7 +22,7 @@
           <IdeaActionID>$Copy</IdeaActionID>
           <ShortCut>'Ctrl+C' or 'Ctrl+Insert'</ShortCut>
           <Description>Copy</Description>
-          <Count>8</Count>
+          <Count>9</Count>
         </Item>
       </Statistic>
       <Statistic Action="Copy Reference">
@@ -222,7 +222,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'Application -download'</Description>
-          <Count>14</Count>
+          <Count>18</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'Application -list'">
