@@ -1,6 +1,14 @@
 <application>
   <component name="KeyPromoterXStatistic">
     <option name="statistics">
+      <Statistic Action="Close">
+        <Item>
+          <IdeaActionID>CloseContent</IdeaActionID>
+          <ShortCut>'Ctrl+F4'</ShortCut>
+          <Description>Close</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Column Selection Mode">
         <Item>
           <IdeaActionID>EditorToggleColumnMode</IdeaActionID>
@@ -430,7 +438,7 @@
           <IdeaActionID>ActivateTerminalToolWindow</IdeaActionID>
           <ShortCut>'Alt+F12'</ShortCut>
           <Description>Terminal</Description>
-          <Count>36</Count>
+          <Count>38</Count>
         </Item>
       </Statistic>
       <Statistic Action="Toggle Line Breakpoint">
@@ -454,7 +462,7 @@
           <IdeaActionID>ActivateVersionControlToolWindow</IdeaActionID>
           <ShortCut>'Alt+9'</ShortCut>
           <Description>Version Control</Description>
-          <Count>15</Count>
+          <Count>17</Count>
         </Item>
       </Statistic>
     </option>
