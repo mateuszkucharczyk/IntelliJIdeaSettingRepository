@@ -25,12 +25,28 @@
           <Count>45</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Compare With...">
+        <Item>
+          <IdeaActionID>CompareTwoFiles</IdeaActionID>
+          <ShortCut>'Ctrl+D'</ShortCut>
+          <Description>Compare With...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Copy">
         <Item>
           <IdeaActionID>$Copy</IdeaActionID>
           <ShortCut>'Ctrl+C' or 'Ctrl+Insert'</ShortCut>
           <Description>Copy</Description>
-          <Count>38</Count>
+          <Count>39</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Copy Path">
+        <Item>
+          <IdeaActionID>CopyPaths</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+C'</ShortCut>
+          <Description>Copy Path</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Copy Reference">
@@ -103,6 +119,14 @@
           <ShortCut>'Shift+F9'</ShortCut>
           <Description>Debug 'KafkaListenerApplication'</Description>
           <Count>11</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Debug 'KafkaSpringApplication'">
+        <Item>
+          <IdeaActionID>Debug</IdeaActionID>
+          <ShortCut>'Shift+F9'</ShortCut>
+          <Description>Debug 'KafkaSpringApplication'</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'RuleEngineApplication'">
@@ -438,7 +462,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'EventPublisher'</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'KafkaListenerApplication'">
@@ -446,6 +470,14 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'KafkaListenerApplication'</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'KafkaSpringApplication'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'Shift+F10'</ShortCut>
+          <Description>Run 'KafkaSpringApplication'</Description>
           <Count>2</Count>
         </Item>
       </Statistic>
@@ -566,7 +598,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'EventPublisher'</Description>
-          <Count>6</Count>
+          <Count>7</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'KafkaConsumerApplication'">
@@ -583,6 +615,14 @@
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'KafkaListenerApplication'</Description>
           <Count>15</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'KafkaSpringApplication'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'KafkaSpringApplication'</Description>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'RuleEngineApplication'">
@@ -646,7 +686,7 @@
           <IdeaActionID>ActivateVersionControlToolWindow</IdeaActionID>
           <ShortCut>'Alt+9'</ShortCut>
           <Description>Version Control</Description>
-          <Count>18</Count>
+          <Count>19</Count>
         </Item>
       </Statistic>
     </option>
